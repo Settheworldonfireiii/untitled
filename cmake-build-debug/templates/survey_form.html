@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Survey</title>
+</head>
+<body>
+<form method="post" action="/submit-survey">
+    <div id="survey-questions">
+        <div class="question">
+            <label for="questionText1">Question Text:</label>
+            <input type="text" id="questionText1" name="questionText[]">
+            <div class="answers" id="answers1">
+                <label for="answer1_1">Answer:</label>
+                <input type="text" id="answer1_1" name="answer1[]">
+            </div>
+            <button type="button" onclick="addAnswer(1)">Add Answer</button>
+        </div>
+    </div>
+    <button type="button" onclick="addQuestion()">Add Another Question</button>
+    <input type="submit" value="Save Survey">
+</form>
+
+<script>
+    let questionCount = 1;
+    let answerCounts = [1];
+
+    function addQuestion() {
+        questionCount++;
+        let container = document.getElementById("survey-questions");
+        let questionDiv = document.createElement("div");
+        questionDiv.className = "question";
+
+        let labelText = document.createElement("label");
+        labelText.setAttribute("for", "questionText" + questionCount);
+        labelText.innerText = "Question Text:";
+        let inputText = document.createElement("input");
+        inputText.type = "text";
+        inputText.id = "questionText" + questionCount;
+        inputText.name = "questionText[]";
+
+        questionDiv.appendChild(labelText);
+        questionDiv.appendChild(inputText);
+
+        let answersDiv = document.createElement("div");
+        answersDiv.className = "answers";
+        answersDiv.id = "answers" + questionCount;
+
+        let labelAnswer = document.createElement("label");
+        labelAnswer.setAttribute("for", "answer" + questionCount + "_1");
+        labelAnswer.innerText = "Answer:";
+        let inputAnswer = document.createElement("input");
+        inputAnswer.type = "text";
+        inputAnswer.id = "answer" + questionCount + "_1";
+        inputAnswer.name = "answer" + questionCount + "[]";
+
+        answersDiv.appendChild(labelAnswer);
+        answersDiv.appendChild(inputAnswer);
+
+        questionDiv.appendChild(answersDiv);
+
+        let addButton = document.createElement("button");
+        addButton.type = "button";
+        addButton.onclick = function () { addAnswer(questionCount); };
+        addButton.innerText = "Add Answer";
+
+        questionDiv.appendChild(addButton);
+        container.appendChild(questionDiv);
+
+        answerCounts.push(1); // Initialize answer count for this question
+    }
+
+    function addAnswer(questionNumber) {
+        let answersContainer = document.getElementById("answers" + questionNumber);
+        let answerCount = ++answerCounts[questionNumber - 1];
+        let labelAnswer = document.createElement("label");
+        labelAnswer.setAttribute("for", "answer" + questionNumber + "_" + answerCount);
+        labelAnswer.innerText = "Answer:";
+
+        let inputAnswer = document.createElement("input");
+        inputAnswer.type = "text";
+        inputAnswer.id = "answer" + questionNumber + "_" + answerCount;
+        inputAnswer.name = "answer" + questionNumber + "[]";
+
+        answersContainer.appendChild(labelAnswer);
+        answersContainer.appendChild(inputAnswer);
+    }
+</script>
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+Question 1: rate+surgeons%27+kill&answer1%5B%5D=1
+Question 2: rate+surgeon%27s+skill&answer2%5B%5D=0&answer2%5B%5D=1
+Question 1: rate+surgeons%27+kill&answer1%5B%5D=1
+Question 2: rate+surgeons+sskill&answer2%5B%5D=1
+Question 1: rate+surgeon+skill&answer1%5B%5D=1&an
+Question 2: rate+surgeons%27+kill&answer2%5B%5D=0&answer2%5B%5D=1
+Question 1: rate+surgeons%27+kill&answer1%5B%5D=1
+Question 1: rate+surgeons%27+kill&answer1%5B%5D=1
+Question 1: rate+physician+skill&answer1%5B%5D=1
+Question 1: rate+surgeons%27+kill&answer1%5B%5D=1
+Question 1: rate+surgeons%27+kill&answer1%5B%5D=1
+Question 1: =evaluate+surgeon%
+Question 2: =evaluate+surgeons%27+kills&answer2%5B%5D=1&answer2%5B%5D=10&answer2%5B%5D=15
+Question 1: =evaluate+surgeon%27s+skill&answer1%5B%5D=0&answer1%5B%5D=1&answer1%5B%5D=2&answer1%5B%5D=3&ques
+Question 2: =evaluate+knitting&answer2%5B%5D=5&answer2%5B%5D=10
+Question 1: =evaluate+surgeon%27s+skills&answer1%5B%5D=0&answer1%5B%5D=1&answer1%5B%5D=2&answer1%5B%5D=3&questionText%5B%5D=evaluate+knitting&answer2%5B%5D=1&answer2%5B%5D=2
+Question 2: =evaluate+knitting&answer2%5B%5D=1&answer2%5B%5D=2
+Question 1: =evaluate+surgeon%27s+skills&answer1%5B%5D=0&answer1%5B%5D=1&answ
+Question 2: =evaluate+knitting&answer2%5B%5D=1&answer2%5B%5D=5
+Question 1: evaluate+surgeon%27s+skills&answer1%5B%5D=0&ans
+Question 2: evaluate+knitting&answer2%5B%5D=5&answer2%5B%5D=10
+Question 1: evaluate+surgeon%27s+skills&
+Question 2: evaluate+knitting&
+Question 1: evaluate+surgeon%27s+skills&
+Question 2: evaluate+knitting&
+Question 1: evaluate surgeon's skills&
+Question 2: evaluate+knitting&
+Question 1: evaluate surgeon's skills&
+Question 2: evaluate+knitting&
+Question 1: evaluate+surgeon's+skills&
+Question 2: evaluate+knitting&
+Question 1: evaluate surgeon%27s skills&
+Question 2: evaluate+knitting&
+Question 1: evaluate knitting
+Question 2: evaluate surgeon`s skills
+Question 1: surgeons kill
+Question 2: evaluate surgeon`s skills
+Question 1: evaluate surgeon`s skills
+Question 2: surgeon`s kills
+Question 1: asA
+Question 2: EWRQW
